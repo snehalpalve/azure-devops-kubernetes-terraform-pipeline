@@ -27,7 +27,7 @@ steps:
     backendAzureRmResourceGroupName: 'Snehal_RG_TF_file_by_pipeline'
     backendAzureRmResourceGroupLocation: 'Central US'
     backendAzureRmStorageAccountName: 'storageaccevapalve'
-    backendAzureRmContainerName: 'tfstatefiles'
+    backendAzureRmContainerName: 'tfstatefilespipeline'
     backendAzureRmKey: 'kubernetes-dev.tfstate'
     allowTelemetryCollection: true
   displayName: 'Kubernetes Cluster pipeline'
